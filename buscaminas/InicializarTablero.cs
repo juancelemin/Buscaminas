@@ -19,8 +19,12 @@ namespace buscaminas
             get { return tablero; }
             set { tablero = value; }
         }
-       
 
+        public int Mina
+        {
+            get { return mina; }
+            set { mina = value; }
+        }
 
         private void inicializar()
         {
@@ -72,6 +76,7 @@ namespace buscaminas
 
                 }
             }
+            mina = 10;
             setnumbers();
            /// show();
         }
@@ -178,8 +183,5 @@ namespace buscaminas
                 }
             }
         }
-
-
-
     }
 }
