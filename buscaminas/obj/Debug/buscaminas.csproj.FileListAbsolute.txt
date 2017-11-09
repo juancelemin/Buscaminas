@@ -5,3 +5,10 @@ C:\Users\juan\Documents\Visual Studio 2017\Projects\buscaminas\buscaminas\bin\De
 C:\Users\juan\Documents\Visual Studio 2017\Projects\buscaminas\buscaminas\bin\Debug\buscaminas.pdb
 C:\Users\juan\Documents\Visual Studio 2017\Projects\buscaminas\buscaminas\obj\Debug\buscaminas.exe
 C:\Users\juan\Documents\Visual Studio 2017\Projects\buscaminas\buscaminas\obj\Debug\buscaminas.pdb
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\bin\Debug\buscaminas.exe.config
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\bin\Debug\buscaminas.exe
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\bin\Debug\buscaminas.pdb
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\obj\Debug\buscaminas.csprojResolveAssemblyReference.cache
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\obj\Debug\buscaminas.csproj.CoreCompileInputs.cache
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\obj\Debug\buscaminas.exe
+C:\Users\juan\Source\Repos\Buscaminas\buscaminas\obj\Debug\buscaminas.pdb

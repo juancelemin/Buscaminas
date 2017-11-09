@@ -44,7 +44,7 @@ namespace buscaminas
         }
         public void turno() {
 
-            Console.WriteLine("Introduzca coordenada xy");
+            Console.WriteLine(" Introduzca coordenada xy");
             coordenada = Console.ReadLine();
             posX = Int32.Parse(coordenada) / 10;
             posY = Int32.Parse(coordenada) % 10;
@@ -58,6 +58,7 @@ namespace buscaminas
             String value = game.Tablero[posX,posY].ToString();
             if (value.Equals("*"))
             {
+                game.show();
                 Console.WriteLine("GAME OVER"); 
                 return true;
             }
@@ -67,15 +68,17 @@ namespace buscaminas
             
         }
         public void MostarTablero() {
+            Console.WriteLine("   0 1 2 3 4 5 6 7 8 9");
             for (int i = 0; i < tableroJuego.GetLength(0); i++)
             {
+                Console.Write(" "+i+ " ");
                 for (int j = 0; j < tableroJuego.GetLength(0); j++)
                 {
                     Console.Write(tableroJuego[i, j]+ " ");
                 }
                 Console.WriteLine();
             }
-            game.show();
+            //game.show();
             turno();
         }
     }

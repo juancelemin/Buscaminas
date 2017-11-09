@@ -39,9 +39,10 @@ namespace buscaminas
         }
         public void show()
         {
-
+            Console.WriteLine("   0 1 2 3 4 5 6 7 8 9");
             for (int i = 0; i < tablero.GetLength(0); i++)
             {
+                Console.Write(" " + i + " ");
                 for (int j = 0; j < tablero.GetLength(0); j++)
                 {
 
