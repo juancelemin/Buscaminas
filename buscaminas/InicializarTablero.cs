@@ -10,7 +10,7 @@ namespace buscaminas
     {
 
         public Object[,] tablero = new Object[10, 10];
-        public int mina = 10;
+        public int mina = 5;
         public int minalugarx = 0;
         public int minalugary = 0;
         Random p = new Random();
@@ -76,7 +76,7 @@ namespace buscaminas
 
                 }
             }
-            mina = 10;
+            mina = 5;
             setnumbers();
            /// show();
         }
